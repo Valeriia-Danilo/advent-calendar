@@ -13,16 +13,20 @@ export default function App() {
   }, [days]);
 
   return (
-    <div className={css.calendarContainer}>
-      {calendar.map(({ day, message, openImage, closedImage }) => (
-        <GiftBox
-          key={day}
-          day={day}
-          message={message}
-          openImage={openImage}
-          closedImage={closedImage}
-        />
-      ))}
+    <div className={css.container}>
+      <div className={css.imgContainer}></div>
+
+      <div className={css.calendarContainer}>
+        {calendar.map(({ day, message, closedImage, modalImage }) => (
+          <GiftBox
+            key={day}
+            day={day}
+            message={message}
+            closedImage={closedImage}
+            modalImage={modalImage}
+          />
+        ))}
+      </div>
     </div>
   );
 }

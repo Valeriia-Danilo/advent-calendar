@@ -1,8 +1,32 @@
+.container {
+  padding-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
 .calendarContainer {
+  width: 100%;
+  max-width: 500px;
+  max-height: 1000px;
   padding: 20px;
-  margin: auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
+  gap: 10px;
   justify-items: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.imgContainer {
+  width: 55%;
+  height: 120px;
+  background-image: url("../../../img/happy-birthday.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }

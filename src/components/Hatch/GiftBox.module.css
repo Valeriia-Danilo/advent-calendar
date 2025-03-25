@@ -1,11 +1,17 @@
 .giftContainer {
-  display: flex;
-  flex-direction: column;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.giftButtonWrapper,
+.giftOpend {
+  position: relative;
 }
 
 .giftButton {
-  width: 150px;
-  height: 150px;
+  width: 70px;
+  height: 70px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -16,29 +22,29 @@
   cursor: pointer;
 }
 
-.giftOpend {
-  width: 50px;
-  height: 50px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  transition: tranform 0.3s;
-}
-
-.giftButton:hover {
-  transform: scale(1.05);
-}
-
 .giftDayLabel {
-  margin-top: 10px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30px;
+  height: 30px;
+  background-color: rgba(0, 0, 0, 0.695);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 14px;
-  color: aliceblue;
   font-weight: bold;
-  text-align: center;
+  z-index: 2;
+  pointer-events: none;
 }
 
 .modalOverlay {
   position: fixed;
+  width: 100%;
+  height: 100%;
   inset: 0;
   background-color: rgba(0, 0, 0, 0.5);
   display: flex;
@@ -48,31 +54,95 @@
 }
 
 .modalWindow {
-  background-color: white;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f1e7;
   border-radius: 0.75rem;
   padding: 1.5rem;
-  max-width: 20rem;
+  max-width: 30rem;
+  min-height: 30rem;
   width: 100%;
   position: relative;
-  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  filter: drop-shadow(0 0 12px rgba(64, 224, 208, 0.8))
+    drop-shadow(0 0 24px rgba(72, 209, 204, 0.6))
+    drop-shadow(0 0 36px rgba(32, 178, 170, 0.4));
 }
 
 .modalCloseBtn {
   position: absolute;
-  top: 0.5rem;
-  right: 0.5rem;
-  color: #6b7280;
+  top: 1rem;
+  right: 1rem;
+  background: linear-gradient(145deg, #34d399, #059669);
+  color: white;
   font-size: 1.125rem;
   cursor: pointer;
+  border: none;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  transition: background 0.5s ease, box-shadow 0.5s ease, transform 0.3s ease;
 }
 
-.modalCloseBtn:hover {
-  color: #ef4444;
+.modalCloseBtn:hover,
+.modalCloseBtn:focus {
+  background: linear-gradient(145deg, #f87171, #dc2626);
+  box-shadow: 0 4px 12px rgba(220, 38, 38, 0.4);
+  outline: none;
+  transform: scale(1.1);
 }
 
 .modalText {
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.5rem;
   font-weight: 600;
   color: #047857;
+  margin-bottom: 30px;
+}
+
+.giftButton {
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.giftImage {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: transform 0.3s, filter 0.3s;
+  pointer-events: none;
+}
+
+.giftButton:hover .modalImg,
+.giftContainer:hover .modalImg,
+.giftButton:focus .modalImg,
+.giftContainer:focus .modalImg,
+.giftButton:hover .giftImage,
+.giftContainer:hover .giftImage,
+.giftButton:focus .giftImage,
+.giftContainer:focus .giftImage {
+  transform: scale(1.05);
+  filter: drop-shadow(0 0 12px rgba(255, 215, 0, 0.8))
+    drop-shadow(0 0 24px rgba(255, 223, 0, 0.6))
+    drop-shadow(0 0 36px rgba(255, 255, 0, 0.4));
+}
+
+.modalImgContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 300px;
+  max-height: 400px;
+}
+.modalImg {
+  width: 100%;
+  height: 100%;
 }

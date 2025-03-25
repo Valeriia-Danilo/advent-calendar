@@ -1,110 +1,110 @@
 [
   {
     "day": 1,
-    "openImage": "../../img/1.jpg",
-    "message": "Can I have your picture so I can show Santa what I want for Christmas?",
-    "closedImage": "../../img/closed-img-1.png"
+    "message": "Скоро вже тобі буде 30, тобі потрібно багато сил. Ось, тримай вітамінки!",
+    "closedImage": "../../img/closed-img-1.png",
+    "modalImage": "../../img/modal-img-1.png"
   },
   {
     "day": 2,
-    "openImage": "../../img/1.jpg",
     "message": "What do you call people who are afraid of Santa Claus? Claustrophobic",
-    "closedImage": "../../img/closed-img-2.png"
+    "closedImage": "../../img/closed-img-2.png",
+    "modalImage": "../../img/modal-img-1.png"
   },
   {
     "day": 3,
-    "openImage": "../../img/1.jpg",
     "message": "What is the best Christmas present ever? A broken drum - you can't beat it!",
-    "closedImage": "../../img/closed-img-3.png"
+    "closedImage": "../../img/closed-img-3.png",
+    "modalImage": "../../img/modal-img-1.png"
   },
   {
     "day": 4,
-    "openImage": "../../img/1.jpg",
     "message": "How do you know when Santa's in the room? You can sense his presents.",
-    "closedImage": "../../img/closed-img-4.png"
+    "closedImage": "../../img/closed-img-4.png",
+    "modalImage": "../../img/modal-img-1.png"
   },
   {
     "day": 5,
-    "openImage": "../../img/1.jpg",
     "message": "STRESSED is just DESSERTS spelled backward.",
-    "closedImage": "../../img/closed-img-5.png"
+    "closedImage": "../../img/closed-img-5.png",
+    "modalImage": "../../img/modal-img-1.png"
   },
   {
     "day": 6,
-    "openImage": "../../img/1.jpg",
     "message": "What is the difference between snowmen and snowwomen? Snowballs.",
-    "closedImage": "../../img/closed-img-6.png"
+    "closedImage": "../../img/closed-img-6.png",
+    "modalImage": "../../img/modal-img-1.png"
   },
   {
     "day": 7,
-    "openImage": "../../img/1.jpg",
     "message": "What nationality is Santa Claus? North Polish",
-    "closedImage": "../../img/closed-img-7.png"
+    "closedImage": "../../img/closed-img-7.png",
+    "modalImage": "../../img/modal-img-1.png"
   },
   {
     "day": 8,
-   "openImage": "../../img/1.jpg",
     "message": "What kind of motorbike does Santa ride? A Holly Davidson!",
-   "closedImage": "../../img/closed-img-8.png"
+   "closedImage": "../../img/closed-img-8.png",
+   "modalImage": "../../img/modal-img-1.png"
   },
   {
     "day": 9,
-    "openImage": "../../img/1.jpg",
     "message": "Who is never hungry at Christmas? The turkey - he's always stuffed!",
-    "closedImage": "../../img/closed-img-9.png"
+    "closedImage": "../../img/closed-img-9.png",
+    "modalImage": "../../img/modal-img-1.png"
   },
   {
     "day": 10,
-    "openImage": "../../img/1.jpg",
     "message": "When you stop believing in Santa Claus is when you start getting clothes for Christmas!",
-    "closedImage": "../../img/closed-img-10.png"
+    "closedImage": "../../img/closed-img-3.png",
+    "modalImage": "../../img/modal-img-1.png"
   },
   {
     "day": 11,
-    "openImage": "../../img/1.jpg",
     "message": "What goes 'oh oh oh'? Santa walking backwards.",
-    "closedImage": "../../img/closed-img-11.png"
+    "closedImage": "../../img/closed-img-11.png",
+    "modalImage": "../../img/modal-img-1.png"
   },
   {
     "day": 12,
-    "openImage": "../../img/1.jpg",
     "message": "According to my kids' Christmas lists, they think this parenting gig pays pretty well.",
-   "closedImage": "../../img/closed-img-12.png"
+   "closedImage": "../../img/closed-img-12.png",
+   "modalImage": "../../img/modal-img-1.png"
   },
   {
     "day": 13,
-    "openImage": "../../img/1.jpg",
     "message": "Which of Santa's reindeers needs to mind his manners the most? 'Rude'olph",
-    "closedImage": "../../img/closed-img-13.png"
+    "closedImage": "../../img/closed-img-13.png",
+    "modalImage": "../../img/modal-img-1.png"
   },
   {
     "day": 14,
-    "openImage": "../../img/1.jpg",
     "message": "What will fall on the lawn first? An autumn leaf or a Christmas catalog?",
-    "closedImage": "../../img/closed-img-14.png"
+    "closedImage": "../../img/closed-img-14.png",
+    "modalImage": "../../img/modal-img-1.png"
   },
   {
     "day": 15,
-    "openImage": "../../img/1.jpg",
     "message": "What do elves learn in school? The Elf-abet!",
-    "closedImage": "../../img/closed-img-15.png"
+    "closedImage": "../../img/closed-img-15.png",
+    "modalImage": "../../img/modal-img-1.png"
   },
   {
     "day": 16,
-    "openImage": "../../img/1.jpg",
     "message": "How do you scare a snowman? You get a hairdryer!",
-   "closedImage": "../../img/closed-img-16.png"
+   "closedImage": "../../img/closed-img-7.png",
+   "modalImage": "../../img/modal-img-1.png"
   },
   {
     "day": 17,
-    "openImage": "../../img/1.jpg",
     "message": "The main thing I want this holiday season is for someone to wake me when it's over.",
-    "closedImage": "../../img/closed-img-17.png"
+    "closedImage": "../../img/closed-img-17.png",
+    "modalImage": "../../img/modal-img-1.png"
   },
   {
     "day": 18,
-    "openImage": "../../img/1.jpg",
     "message": "Remember, children. The best way to get a puppy for Christmas is to beg for a baby brother.",
-    "closedImage": "../../img/closed-img-18.png"
+    "closedImage": "../../img/closed-img-18.png",
+    "modalImage": "../../img/modal-img-1.png"
   }
 ]
