@@ -1,20 +1,38 @@
 import { useState } from "react";
 import css from "./GiftBox.module.css";
 
-export default function GiftBox({ day, message, closedImage, modalImage }) {
-  const [isOpen, setIsOpen] = useState(false);
+export default function GiftBox({
+  day,
+  message,
+  closedImage,
+  modalImage,
+  isOpen,
+  //   isDisabled,
+  onOpen,
+}) {
   const [isModalOpen, setIsModalOpen] = useState(false);
+  //   const [isEarlyModalOpen, setIsEarlyModalOpen] = useState(false);
 
   const handleClickBox = () => {
-    if (!isOpen) {
-      setIsOpen(true);
-    }
+    // if (isDisabled) {
+    //   setIsEarlyModalOpen(true);
+    //   return;
+    // }
+
     setIsModalOpen(true);
+
+    if (!isOpen) {
+      onOpen();
+    }
   };
 
   const closeModal = () => {
     setIsModalOpen(false);
   };
+
+  //   const closeEarlyModal = () => {
+  //     setIsEarlyModalOpen(false);
+  //   };
 
   return (
     <>
@@ -58,6 +76,28 @@ export default function GiftBox({ day, message, closedImage, modalImage }) {
           </div>
         </div>
       )}
+
+      {/* {isEarlyModalOpen && (
+        <div onClick={closeEarlyModal} className={css.modalOverlay}>
+          <div onClick={(e) => e.stopPropagation()} className={css.modalWindow}>
+            <button onClick={closeEarlyModal} className={css.modalCloseBtn}>
+              X
+            </button>
+            <p className={css.modalText}>
+              Тц-тц-тц… Ще рано відкривати цей подарунок!
+              <br />
+              Потерпи до {day} квітня 😼
+            </p>
+            <div className={css.modalImgContainer}>
+              <img
+                src="../../../public/img/cat.png"
+                alt="Котик каже ще рано"
+                className={css.modalImg}
+              />
+            </div>
+          </div>
+        </div>
+      )} */}
     </>
   );
 }

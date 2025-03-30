@@ -10,12 +10,12 @@
 }
 
 .giftButton {
-  width: 70px;
-  height: 70px;
+  width: 50px;
+  height: 50px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  transition: tranform 0.3s;
+  transition: transform 0.3s;
   border: none;
   padding: 0;
   background-color: transparent;
@@ -24,18 +24,18 @@
 
 .giftDayLabel {
   position: absolute;
-  top: 40%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 30px;
-  height: 30px;
+  width: 18px;
+  height: 18px;
   background-color: rgba(0, 0, 0, 0.695);
   color: white;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: bold;
   z-index: 2;
   pointer-events: none;
@@ -54,7 +54,6 @@
 }
 
 .modalWindow {
-  padding: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -62,9 +61,9 @@
   background-color: #f7f1e7;
   border-radius: 0.75rem;
   padding: 1.5rem;
-  max-width: 30rem;
-  min-height: 30rem;
-  width: 100%;
+  max-width: 22rem;
+  min-height: 20rem;
+  width: 70vw;
   position: relative;
   filter: drop-shadow(0 0 12px rgba(64, 224, 208, 0.8))
     drop-shadow(0 0 24px rgba(72, 209, 204, 0.6))
@@ -100,17 +99,10 @@
 
 .modalText {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 600;
   color: #047857;
-  margin-bottom: 30px;
-}
-
-.giftButton {
-  border: none;
-  padding: 0;
-  background-color: transparent;
-  cursor: pointer;
+  margin-bottom: 20px;
 }
 
 .giftImage {
@@ -139,10 +131,64 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 300px;
-  max-height: 400px;
+  max-width: 200px;
+  max-height: 300px;
 }
+
 .modalImg {
   width: 100%;
   height: 100%;
+}
+
+@media screen and (min-width: 500px) and (max-width: 1279px) {
+  .giftButton {
+    width: 60px;
+    height: 60px;
+  }
+
+  .giftDayLabel {
+    width: 20px;
+    height: 20px;
+    font-size: 14px;
+  }
+
+  .modalWindow {
+    max-width: 25rem;
+    min-height: 25rem;
+    padding: 1.7rem;
+  }
+
+  .modalImgContainer {
+    max-width: 250px;
+    max-height: 350px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .giftButton {
+    width: 75px;
+    height: 75px;
+  }
+
+  .giftDayLabel {
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
+    top: 40%;
+  }
+
+  .modalWindow {
+    max-width: 30rem;
+    min-height: 30rem;
+    padding: 2rem;
+  }
+
+  .modalImgContainer {
+    max-width: 300px;
+    max-height: 400px;
+  }
+
+  .modalText {
+    font-size: 1.5rem;
+  }
 }
