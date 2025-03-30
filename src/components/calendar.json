@@ -1,110 +1,110 @@
 [
   {
     "day": 1,
-    "message": "Скоро вже тобі буде 30, тобі потрібно багато сил. Ось, тримай вітамінки!",
-    "closedImage": "../../img/closed-img-1.png",
-    "modalImage": "../../img/modal-img-1.png"
+    "message": "Ти думаєш, що гроші алкоголь і пісюни зроблять тебе щасливою? Правильно думаєш! Ось, тобі гроші на шампусік)",
+    "closedImage": "../../public/img/closed-img-1.png",
+    "modalImage": "../../public/img/money.png"
   },
   {
     "day": 2,
-    "message": "What do you call people who are afraid of Santa Claus? Claustrophobic",
-    "closedImage": "../../img/closed-img-2.png",
-    "modalImage": "../../img/modal-img-1.png"
+    "message": "Коли на душі токсично, маска допоможе хоча б обличчю 😄",
+    "closedImage": "../../public/img/closed-img-2.png",
+    "modalImage": "../../public/img/women-with-mask.png"
   },
   {
     "day": 3,
-    "message": "What is the best Christmas present ever? A broken drum - you can't beat it!",
-    "closedImage": "../../img/closed-img-3.png",
-    "modalImage": "../../img/modal-img-1.png"
+    "message": "Склад:💥 Щастя — 100%,💥 Турбота — 100%,💥 Калорії? Нє, не бачила 😄 Тримай солоденьке!",
+    "closedImage": "../../public/img/closed-img-3.png",
+    "modalImage": "../../public/img/candy-1.png"
   },
   {
     "day": 4,
-    "message": "How do you know when Santa's in the room? You can sense his presents.",
-    "closedImage": "../../img/closed-img-4.png",
-    "modalImage": "../../img/modal-img-1.png"
+    "message": "Бажаю тобі кави, ніжності й людей, які не дістають.А якщо хтось дістане — хай це будуть гроші. 💸",
+    "closedImage": "../../public/img/closed-img-4.png",
+    "modalImage": "../../public/img/money-gun.png"
   },
   {
     "day": 5,
-    "message": "STRESSED is just DESSERTS spelled backward.",
-    "closedImage": "../../img/closed-img-5.png",
-    "modalImage": "../../img/modal-img-1.png"
+    "message": "Твій маленький чарівник: розтушує всі сліди вчорашнього! Дарую спонжик для макіяжу.",
+    "closedImage": "../../public/img/closed-img-5.png",
+    "modalImage": "../../public/img/spong.png"
   },
   {
     "day": 6,
-    "message": "What is the difference between snowmen and snowwomen? Snowballs.",
-    "closedImage": "../../img/closed-img-6.png",
-    "modalImage": "../../img/modal-img-1.png"
+    "message": "Приймати щодня: від дурних людей, поганого настрою і холодної погоди.",
+    "closedImage": "../../public/img/closed-img-6.png",
+    "modalImage": "../../public/img/modal-img-1.png"
   },
   {
     "day": 7,
-    "message": "What nationality is Santa Claus? North Polish",
-    "closedImage": "../../img/closed-img-7.png",
-    "modalImage": "../../img/modal-img-1.png"
+    "message": "Коли світ втомив — дай відпочити тим, хто носив тебе на манікюр, побачення і по винце 😄. Тримай масочку для ніг)",
+    "closedImage": "../../public/img/closed-img-7.png",
+    "modalImage": "../../public/img/foot.png"
   },
   {
     "day": 8,
-    "message": "What kind of motorbike does Santa ride? A Holly Davidson!",
-   "closedImage": "../../img/closed-img-8.png",
-   "modalImage": "../../img/modal-img-1.png"
+    "message": "Бажаю, щоб усе було: і настрій, і гроші, і бажання відповідати людям у месенджерах 💸💬.",
+   "closedImage": "../../public/img/closed-img-8.png",
+   "modalImage": "../../public/img/message.png"
   },
   {
     "day": 9,
-    "message": "Who is never hungry at Christmas? The turkey - he's always stuffed!",
-    "closedImage": "../../img/closed-img-9.png",
-    "modalImage": "../../img/modal-img-1.png"
+    "message": "Ти ж не золото — але все одно коштуєш дофіга. Ось тобі грошенят на дрібнички, королево!",
+    "closedImage": "../../public/img/closed-img-9.png",
+    "modalImage": "../../public/img/money.png"
   },
   {
     "day": 10,
-    "message": "When you stop believing in Santa Claus is when you start getting clothes for Christmas!",
-    "closedImage": "../../img/closed-img-3.png",
-    "modalImage": "../../img/modal-img-1.png"
+    "message": "Тримай патчі для твоїх очей, які бачили занадто всякої багато фігні.",
+    "closedImage": "../../public/img/closed-img-3.png",
+    "modalImage": "../../public/img/patch.png"
   },
   {
     "day": 11,
-    "message": "What goes 'oh oh oh'? Santa walking backwards.",
-    "closedImage": "../../img/closed-img-11.png",
-    "modalImage": "../../img/modal-img-1.png"
+    "message": "Цей шоколад не зробить тебе розумнішою... Але точно щасливішою 😏.",
+    "closedImage": "../../public/img/closed-img-11.png",
+    "modalImage": "../../public/img/chocolate.png"
   },
   {
     "day": 12,
-    "message": "According to my kids' Christmas lists, they think this parenting gig pays pretty well.",
-   "closedImage": "../../img/closed-img-12.png",
-   "modalImage": "../../img/modal-img-1.png"
+    "message": "Ось тобі масочка для губ. Ці губи мають бути готові: до кави, поцілунків і сказати 'нічого страшного'… але з іронією.",
+   "closedImage": "../../public/img/closed-img-12.png",
+   "modalImage": "../../public/img/modal-img-1.png"
   },
   {
     "day": 13,
-    "message": "Which of Santa's reindeers needs to mind his manners the most? 'Rude'olph",
-    "closedImage": "../../img/closed-img-13.png",
-    "modalImage": "../../img/modal-img-1.png"
+    "message": "Не просто свічка. Це твій офіційний спосіб не вбити нікого сьогодні... і завтра... Пахне, ніби ти знаш, що робиш. (А ти не знаєш 😄😄😄)",
+    "closedImage": "../../public/img/closed-img-13.png",
+    "modalImage": "../../public/img/modal-img-1.png"
   },
   {
     "day": 14,
-    "message": "What will fall on the lawn first? An autumn leaf or a Christmas catalog?",
-    "closedImage": "../../img/closed-img-14.png",
-    "modalImage": "../../img/modal-img-1.png"
+    "message": "Тримай копілочку! Тут не гроші. Тут енергія майбутнього шопінгу...",
+    "closedImage": "../../public/img/closed-img-14.png",
+    "modalImage": "../../public/img/modal-img-1.png"
   },
   {
     "day": 15,
-    "message": "What do elves learn in school? The Elf-abet!",
-    "closedImage": "../../img/closed-img-15.png",
-    "modalImage": "../../img/modal-img-1.png"
+    "message": "Їж шоколад, носи корону й не виправдовуйся.👠",
+    "closedImage": "../../public/img/closed-img-15.png",
+    "modalImage": "../../public/img/modal-img-1.png"
   },
   {
     "day": 16,
-    "message": "How do you scare a snowman? You get a hairdryer!",
-   "closedImage": "../../img/closed-img-7.png",
-   "modalImage": "../../img/modal-img-1.png"
+    "message": "Бажаю мінімум дурних людей, максимум приємних сюрпризів, і щоб дзеркало казало: “да ти шо, богиня!” 💁‍♀️✨",
+   "closedImage": "../../public/img/closed-img-7.png",
+   "modalImage": "../../public/img/modal-img-1.png"
   },
   {
     "day": 17,
-    "message": "The main thing I want this holiday season is for someone to wake me when it's over.",
-    "closedImage": "../../img/closed-img-17.png",
-    "modalImage": "../../img/modal-img-1.png"
+    "message": "Ми не божевільні. Ми просто хочемо в Мюнхен.На машині. З музикою.. Покатаємо як королеву)",
+    "closedImage": "../../public/img/closed-img-17.png",
+    "modalImage": "../../public/img/modal-img-1.png"
   },
   {
     "day": 18,
-    "message": "Remember, children. The best way to get a puppy for Christmas is to beg for a baby brother.",
-    "closedImage": "../../img/closed-img-18.png",
-    "modalImage": "../../img/modal-img-1.png"
+    "message": "Хочеш легкості в житті? Давай почнемо з польоту — в буквальному сенсі, офіційно, в шоломі і з інструктором! 😄",
+    "closedImage": "../../public/img/closed-img-18.png",
+    "modalImage": "../../public/img/modal-img-1.png"
   }
 ]
