@@ -90,7 +90,7 @@ export default function GiftBox({
             </p>
             <div className={css.modalImgContainer}>
               <img
-                src="../../../public/img/cat.png"
+                src="../../../img/cat.png"
                 alt="Котик каже ще рано"
                 className={css.modalImg}
               />
