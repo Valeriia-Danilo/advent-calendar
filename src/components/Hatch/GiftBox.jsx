@@ -7,17 +7,17 @@ export default function GiftBox({
   closedImage,
   modalImage,
   isOpen,
-  //   isDisabled,
+  isDisabled,
   onOpen,
 }) {
   const [isModalOpen, setIsModalOpen] = useState(false);
-  //   const [isEarlyModalOpen, setIsEarlyModalOpen] = useState(false);
+  const [isEarlyModalOpen, setIsEarlyModalOpen] = useState(false);
 
   const handleClickBox = () => {
-    // if (isDisabled) {
-    //   setIsEarlyModalOpen(true);
-    //   return;
-    // }
+    if (isDisabled) {
+      setIsEarlyModalOpen(true);
+      return;
+    }
 
     setIsModalOpen(true);
 
@@ -30,9 +30,9 @@ export default function GiftBox({
     setIsModalOpen(false);
   };
 
-  //   const closeEarlyModal = () => {
-  //     setIsEarlyModalOpen(false);
-  //   };
+  const closeEarlyModal = () => {
+    setIsEarlyModalOpen(false);
+  };
 
   return (
     <>
@@ -77,7 +77,7 @@ export default function GiftBox({
         </div>
       )}
 
-      {/* {isEarlyModalOpen && (
+      {isEarlyModalOpen && (
         <div onClick={closeEarlyModal} className={css.modalOverlay}>
           <div onClick={(e) => e.stopPropagation()} className={css.modalWindow}>
             <button onClick={closeEarlyModal} className={css.modalCloseBtn}>
@@ -97,7 +97,7 @@ export default function GiftBox({
             </div>
           </div>
         </div>
-      )} */}
+      )}
     </>
   );
 }

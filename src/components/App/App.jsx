@@ -19,9 +19,9 @@ export default function App() {
     }
   };
 
-  // const today = new Date();
-  // const currentDay = today.getDate();
-  // const currentMonth = today.getMonth();
+  const today = new Date();
+  const currentDay = today.getDate();
+  const currentMonth = today.getMonth();
 
   return (
     <div className={css.container}>
@@ -29,8 +29,8 @@ export default function App() {
 
       <div className={css.calendarContainer}>
         {calendar.map(({ day, message, closedImage, modalImage }) => {
-          // const isDisabled =
-          //   currentMonth < 3 || (currentMonth === 3 && day > currentDay);
+          const isDisabled =
+            currentMonth < 3 || (currentMonth === 3 && day > currentDay);
 
           return (
             <GiftBox
@@ -40,7 +40,7 @@ export default function App() {
               closedImage={closedImage}
               modalImage={modalImage}
               isOpen={openedDays.includes(day)}
-              // isDisabled={isDisabled}
+              isDisabled={isDisabled}
               onOpen={() => handleOpenDay(day)}
             />
           );
